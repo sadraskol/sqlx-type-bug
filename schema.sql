@@ -1,8 +1,8 @@
 create table public.speaker
 (
     id         integer primary key,
-    name       text   not null,
-    occupation text[] not null
+    name       varchar   not null,
+    occupation varchar[] not null
 );
 
 insert into speaker
